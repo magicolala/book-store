@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    console.log("test");
+    $(".hamburger-menu").click(function() {
+        console.log("click");
+        $(".navigation").toggleClass("change");
+    });
+
     lightbox.option({
         wrrapAround: true
     });
